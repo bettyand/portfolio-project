@@ -4,8 +4,9 @@
 }
 
 body  {
-    background-color: darkslateblue;
+    background-image: linear-gradient(darkslateblue,black);
     margin: 0px;
+    min-height: 100vh;
 }
 
 nav {
