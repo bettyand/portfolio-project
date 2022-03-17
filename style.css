@@ -41,12 +41,23 @@ li  {
     padding-left: 40px;
 }
 
-.pfp    {
+.heroimg    {
     width: 200px;
+    height: 200px;
     display: block;
 }
 
-.bio    {
+.bio, .portfoliodescrip    {
     width: 400px;
     text-align: justify;
+}
+
+.projectcards   {
+    display: flex;
+}
+
+.card   {
+    text-align: center;
+    background-color: steelblue;
+    border: 3px ridge steelblue;
 }
