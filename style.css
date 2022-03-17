@@ -30,12 +30,12 @@ footer  {
     text-align: center;
 }
 
-ul  {
+.navlinks  {
     list-style-type: none;
     display: flex;
 }
 
-li  {
+.navlinks li  {
     padding-left: 40px;
 }
 
@@ -52,6 +52,9 @@ li  {
 
 .projectcards   {
     display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: stretch;
 }
 
 .card   {
@@ -63,4 +66,16 @@ li  {
 
 .thumbnail  {
     width: 250px;
+}
+
+dl   {
+    width: 400px;
+}
+
+dd  {
+    padding-bottom: 1em;
+}
+
+ul  {
+    list-style-type: square;
 }
