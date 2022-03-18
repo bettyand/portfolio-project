@@ -1,10 +1,10 @@
-*   {
+* {
     color: lightsteelblue;
     font-family: Arial, Helvetica, sans-serif;
 }
 
-body  {
-    background-image: linear-gradient(darkslateblue,black);
+body {
+    background-image: linear-gradient(darkslateblue, black);
     margin: 0px;
     min-height: 100vh;
 }
@@ -18,14 +18,14 @@ nav {
     text-shadow: 3px 3px 5px black;
 }
 
-main    {
+main {
     display: flex;
     flex-direction: column;
     align-content: space-around;
     align-items: center;
 }
 
-footer  {
+footer {
     width: 100%;
     border-top: 1px solid;
     margin-top: 2em;
@@ -37,30 +37,30 @@ footer  {
     opacity: 0.5;
 }
 
-footer>h3   {
-color: transparent
+footer>h3 {
+    color: transparent
 }
 
-.navlinks  {
+.navlinks {
     list-style-type: none;
     width: 250px;
     display: flex;
     justify-content: space-between;
 }
 
-.heroimg    {
+.heroimg {
     width: 200px;
     height: 200px;
     display: block;
     border-radius: 50%;
 }
 
-.herotxt    {
+.herotxt {
     width: 400px;
     text-align: justify;
 }
 
-.projectcards   {
+.projectcards {
     display: flex;
     flex-direction: row;
     justify-content: space-around;
@@ -68,7 +68,7 @@ color: transparent
     width: 100%;
 }
 
-.card   {
+.card {
     text-align: center;
     background-color: steelblue;
     border: 5px solid;
@@ -76,20 +76,20 @@ color: transparent
     padding: 10px;
 }
 
-.thumbnail  {
+.thumbnail {
     width: 250px;
     border-radius: 10px;
 }
 
-dl   {
+dl {
     width: 600px;
 }
 
-dd  {
+dd {
     padding-bottom: 1em;
 }
 
-ul  {
+ul {
     list-style-type: square;
 }
 
@@ -97,3 +97,9 @@ h1, h2 {
     text-shadow: 5px 5px 10px black;
 }
 
+a.external[target="_blank"]::after {
+    content: url(images/icons8-external-link-20.png);
+    margin: 0px 3px 0px 5px;
+}
+
+/* icon by Icons8 https://icons8.com/icon/48159/external-link */
