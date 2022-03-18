@@ -43,17 +43,16 @@ color: transparent
 
 .navlinks  {
     list-style-type: none;
+    width: 250px;
     display: flex;
-}
-
-.navlinks li  {
-    padding-left: 40px;
+    justify-content: space-between;
 }
 
 .heroimg    {
     width: 200px;
     height: 200px;
     display: block;
+    border-radius: 50%;
 }
 
 .herotxt    {
