@@ -16,6 +16,7 @@ nav {
     align-items: baseline;
     border-bottom: 1px solid;
     text-shadow: 3px 3px 5px black;
+    background-color: rgba(255, 255, 255, .05);
 }
 
 main {
