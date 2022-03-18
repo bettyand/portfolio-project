@@ -1,5 +1,5 @@
 * {
-    color: lightsteelblue;
+    color: #dfdef6;
     font-family: Arial, Helvetica, sans-serif;
 }
 
@@ -16,7 +16,7 @@ nav {
     align-items: baseline;
     border-bottom: 1px solid;
     text-shadow: 3px 3px 5px black;
-    background-color: rgba(255, 255, 255, .05);
+    background-color: rgba(223, 222, 246, .05);
 }
 
 main {
@@ -71,8 +71,8 @@ footer>h3 {
 
 .card {
     text-align: center;
-    background-color: steelblue;
-    border: 5px solid;
+    background-image: radial-gradient(black,darkslateblue);
+    border: 5px solid slateblue;
     border-radius: 15px;
     padding: 10px;
 }
